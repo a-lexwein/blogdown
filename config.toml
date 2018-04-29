@@ -1,0 +1,8 @@
+theme = "simple-a"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Alex Wein"
+copyright = "&copy; 2018 Alex Wein"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
