@@ -82,15 +82,6 @@ Big thanks to Alison Presmanes Hill for her great blog post on how to get starte
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
-    </item>
-    
-    <item>
       <title>How to install Geppaku theme</title>
       <link>/2016/05/how-to-install-geppaku-theme/</link>
       <pubDate>Tue, 03 May 2016 11:03:05 +0900</pubDate>
@@ -382,6 +373,16 @@ là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p&g
       
       <guid>/publication/clothing-search/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I&amp;rsquo;m Alex Wein. I&amp;rsquo;m currently looking for a data job in San Francisco. Here are a few things I&amp;rsquo;m nerdy about:
+ R&amp;rsquo;s Tidyverse Data Visualization Pop Music Linguistics Tax Policy Functional Programming The Metaphysics of Fictional Worlds  Some of those overlap.</description>
     </item>
     
     <item>
