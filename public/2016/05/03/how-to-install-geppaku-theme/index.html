@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.36.1" />
+
+
+<title>How to install Geppaku theme - A Hugo website</title>
+<meta property="og:title" content="How to install Geppaku theme - A Hugo website">
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/%3cnil%3e"
+         width=""
+         height=""
+         alt="">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/a-lexwein">GitHub</a></li>
+    
+    <li><a href="/2014/04/02/introduction-aux-modeles-hugo/">Introduction aux modèles (Hu)go</a></li>
+    
+    <li><a href="">tutorials</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">How to install Geppaku theme</h1>
+
+    
+    <span class="article-date">2016/05/03</span>
+    
+
+    <div class="article-content">
+      
+
+<p>Geppaku is bluish white theme for <a href="http://gohugo.io/">Hugo</a>.<br />
+It is color name in Japan. Chinese character is &ldquo;月白&rdquo;.</p>
+
+<blockquote>
+<p>月白（げっぱく）とは、月の光を思わせる薄い青みを含んだ白色のことです。
+<small>via <a href="http://irocore.com/geppaku/">http://irocore.com/geppaku/</a></small></p>
+</blockquote>
+
+<p>Geppaku is the white color including a thin blue that reminiscent of the light of the moon.<br />
+(If that translate is wrong, please inform me using PullRequest.)</p>
+
+<h2 id="screenshot">Screenshot</h2>
+
+<h3 id="index-page">Index page</h3>
+
+<p><img src="/images/2016/05/03/list.png" alt="list" /></p>
+
+<h3 id="post-page">Post page</h3>
+
+<p><img src="/images/2016/05/03/screenshot.png" alt="post" /></p>
+
+<h2 id="installation">Installation</h2>
+
+<pre><code>$ mkdir themes
+$ cd themes
+$ git clone https://github.com/masa0221/hugo-theme-geppaku hugo-theme-geppaku
+</code></pre>
+
+<p>See the Hugo documentation for more information.</p>
+
+<h3 id="config">Config</h3>
+
+<p>Example of config.toml file:</p>
+
+<pre><code class="language-toml">baseurl = &quot;http://your-site-here/&quot;
+languageCode = &quot;en-us&quot;
+title = &quot;your site title&quot;
+theme= &quot;hugo-theme-geppaku&quot;
+googleAnalytics = &quot;&quot; # Optional
+disqusShortname = &quot;&quot; # Optional
+
+[author]
+    # If you want to display author information set these
+    # This is Optional values
+    name = &quot;Your name&quot;
+
+    # Please set account ids
+    # This is Optional values
+    twitter  = &quot;your twitter id&quot;
+    linkedin = &quot;your linkedin id&quot;
+    github   = &quot;your github id&quot;
+
+[params]
+    [params.sharebutton]
+        # If you want to display share buttons set these
+        # This is Optional values
+        twitter  = true
+        facebook = true
+        # hatena   = true # hatena is Japanese social media
+        google   = true
+        pocket   = true
+        # Please set id when you want to display facebook
+        facebookAppId = &quot;your app id&quot;
+
+    [params.adsense]
+        # If you want to display Google adsense set these
+        # This is Optional values
+        # 1. Create file written of the adsense tag into the directory &quot;layouts/partials&quot;
+        # 2. Please set file path name omitted &quot;layouts/partials&quot;
+        sidebar = &quot;adsense/sidebar.html&quot;
+        content = &quot;adsense/content.html&quot;
+</code></pre>
+
+<p>You can delete optional parameter.
+Please delete unnecessary parameter.</p>
+
+<h3 id="new-post">New Post</h3>
+
+<h4 id="create-markdown-file">Create markdown file</h4>
+
+<pre><code class="language-sh">hugo new post/2016/05/hello-hugo.md
+</code></pre>
+
+<h4 id="example-of-the-toml-file">Example of the toml file</h4>
+
+<pre><code>+++
+date = &quot;2016-04-30T16:44:45+09:00&quot;
+draft = false
+title = &quot;Hello Hugo!&quot;
+slug = &quot;hello-hugo&quot;
+categories = [&quot;tech&quot;]
+tags = [
+  &quot;hugo&quot;,
+  &quot;golang&quot;,
+  ]
++++
+Hello Hugo!
+</code></pre>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

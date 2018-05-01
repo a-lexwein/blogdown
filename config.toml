@@ -1,8 +1,32 @@
-theme = "simple-a"
-baseURL = "http://example.org/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Alex Wein"
-copyright = "&copy; 2018 Alex Wein"
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:slug/"
+[[menu.main]]
+    name = "Alex Wein's Blog"
+    url = "/"
+[[menu.main]]
+    name = "About Me"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub: a-lexwein"
+    url = "https://github.com/a-lexwein"
+
+[params]
+    description = "Alex Wein's corner of the internet"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
