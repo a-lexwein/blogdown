@@ -6,10 +6,50 @@
     <description>Recent content in Home on Alex Wein</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>Biography Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/2014/09/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>/2014/03/migrate-to-hugo-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/03/migrate-to-hugo-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Running some SQL code with RStudio</title>
@@ -32,13 +72,316 @@ Big thanks to Alison Presmanes Hill for her great blog post on how to get starte
     </item>
     
     <item>
+      <title>A Plain Markdown Post</title>
+      <link>/2016/12/a-plain-markdown-post/</link>
+      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      
+      <guid>/2016/12/a-plain-markdown-post/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
       <guid>/about/</guid>
-      <description>I&amp;rsquo;m Alex Wein. I&amp;rsquo;m currently looking for a data job in San Francisco. Here are a few things I&amp;rsquo;m nerdy about:
- R&amp;rsquo;s Tidyverse Data Visualization Pop Music Linguistics Tax Policy Functional Programming The Metaphysics of Fictional Worlds  Some of those overlap.</description>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+    </item>
+    
+    <item>
+      <title>How to install Geppaku theme</title>
+      <link>/2016/05/how-to-install-geppaku-theme/</link>
+      <pubDate>Tue, 03 May 2016 11:03:05 +0900</pubDate>
+      
+      <guid>/2016/05/how-to-install-geppaku-theme/</guid>
+      <description>Geppaku is bluish white theme for Hugo.
+It is color name in Japan. Chinese character is &amp;ldquo;月白&amp;rdquo;.
+ 月白（げっぱく）とは、月の光を思わせる薄い青みを含んだ白色のことです。 via http://irocore.com/geppaku/
+ Geppaku is the white color including a thin blue that reminiscent of the light of the moon.
+(If that translate is wrong, please inform me using PullRequest.)
+Screenshot Index page Post page Installation $ mkdir themes $ cd themes $ git clone https://github.com/masa0221/hugo-theme-geppaku hugo-theme-geppaku  See the Hugo documentation for more information.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 10</title>
+      <link>/2016/05/sample-post-10/</link>
+      <pubDate>Tue, 03 May 2016 10:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-10/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 9</title>
+      <link>/2016/05/sample-post-9/</link>
+      <pubDate>Tue, 03 May 2016 09:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-9/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 8</title>
+      <link>/2016/05/sample-post-8/</link>
+      <pubDate>Tue, 03 May 2016 08:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-8/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 7</title>
+      <link>/2016/05/sample-post-7/</link>
+      <pubDate>Tue, 03 May 2016 07:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-7/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 6</title>
+      <link>/2016/05/sample-post-6/</link>
+      <pubDate>Tue, 03 May 2016 06:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-6/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 5</title>
+      <link>/2016/05/sample-post-5/</link>
+      <pubDate>Tue, 03 May 2016 05:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-5/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 4</title>
+      <link>/2016/05/sample-post-4/</link>
+      <pubDate>Tue, 03 May 2016 04:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-4/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 3</title>
+      <link>/2016/05/sample-post-3/</link>
+      <pubDate>Tue, 03 May 2016 03:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-3/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 2</title>
+      <link>/2016/05/sample-post-2/</link>
+      <pubDate>Tue, 03 May 2016 02:00:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-2/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Sample Post 1</title>
+      <link>/2016/05/sample-post-1/</link>
+      <pubDate>Tue, 03 May 2016 00:01:00 +0900</pubDate>
+      
+      <guid>/2016/05/sample-post-1/</guid>
+      <description>This is sample post.
+H2 sample This is H2 tag.
+H3 sample  This is quotation This is quotation This is quotation via http://www.example.com/
+ It is quotation sample.
+H4 sample package main import &amp;quot;fmt&amp;quot; func main() { fmt.Println(&amp;quot;Hello, Hugo!&amp;quot;) }  Try Go
+It is codehighlight.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/project/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/project/deep-learning/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/example-external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/project/example-external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic: the website designer for Hugo</title>
+      <link>/2016/04/academic-the-website-designer-for-hugo/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0700</pubDate>
+      
+      <guid>/2016/04/academic-the-website-designer-for-hugo/</guid>
+      <description>Academic is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. Check out the latest demo of what you&amp;rsquo;ll get in less than 10 minutes. Then head on over to the Quick Start guide or take a look at the Release Notes.
+
+Key features:
+ Easily manage various content including homepage, blog posts, publications, talks, and projects Extensible via color themes and widgets/plugins Write in Markdown for easy formatting and code highlighting, with LaTeX for mathematical expressions Social/academic network linking, Google Analytics, and Disqus comments Responsive and mobile friendly Simple and refreshing one page design Multilingual and easy to customize  Color Themes Academic is available in different color themes and font themes.</description>
+    </item>
+    
+    <item>
+      <title>A Person Re-Identification System For Mobile Devices</title>
+      <link>/publication/person-re-identification/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/person-re-identification/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>/2015/01/lorem-ipsum/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/2015/01/lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>Création d&#39;un nouveau thème</title>
+      <link>/2014/09/creation-dun-nouveau-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/09/creation-dun-nouveau-theme/</guid>
+      <description>Introduction Ce tutoriel vous montrera comment créer un thème simple pour Hugo. Je suppose que vous êtes familier avec HTML, la ligne de commande bash, et que vous êtes à l&amp;rsquo;aise avec Markdown pour formater le contenu. Je vais expliquer comment Hugo utilise des modèles et comment vous pouvez organiser vos modèles pour créer un thème. Je ne couvrirai pas l&amp;rsquo;utilisation de CSS pour styliser votre thème.
+Nous allons commencer par créer un nouveau site avec un modèle très basique.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/2014/04/hugo-template-primer/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/04/hugo-template-primer/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Débuter avec Hugo</title>
+      <link>/2014/04/debuter-avec-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/04/debuter-avec-hugo/</guid>
+      <description>&lt;h2 id=&#34;étape-1-installer-hugo&#34;&gt;Étape 1. Installer Hugo&lt;/h2&gt;
+
+&lt;p&gt;Allez sur la page de téléchargements de
+&lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo&lt;/a&gt; et téléchargez la version
+appropriée à votre système d&amp;rsquo;exploitation et votre architecture.&lt;/p&gt;
+
+&lt;p&gt;Sauvegardez le fichier téléchargé à un endroit précis, afin de l&amp;rsquo;utiliser dans
+l&amp;rsquo;étape suivante.&lt;/p&gt;
+
+&lt;p&gt;Des informations plus complètes sont disponibles sur la page
+&lt;a href=&#34;/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/2014/04/getting-started-with-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/04/getting-started-with-hugo/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Introduction aux modèles (Hu)go</title>
+      <link>/2014/04/introduction-aux-modeles-hugo/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/04/introduction-aux-modeles-hugo/</guid>
+      <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
+Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Migrer vers Hugo depuis Jekyll</title>
+      <link>/2014/03/migrer-vers-hugo-depuis-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/2014/03/migrer-vers-hugo-depuis-jekyll/</guid>
+      <description>&lt;h2 id=&#34;déplacez-le-contenu-statique-vers-static&#34;&gt;Déplacez le contenu statique vers &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+
+&lt;p&gt;Jekyll a une règle comme quoi tout répertoire qui ne commence pas par &lt;code&gt;_&lt;/code&gt; sera
+copié tel-quel dans le répertoire &lt;code&gt;_site&lt;/code&gt;. Hugo garde tout le contenu statique
+dans le répertoire &lt;code&gt;static&lt;/code&gt;. Vous devez donc déplacer tout ce type de contenu
+là-dedans. Avec Jekylll, l&amp;rsquo;arborescence ressemblant à ceci :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
+    ▾ images/
+        logo.png
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mobile visual clothing search</title>
+      <link>/publication/clothing-search/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 -0700</pubDate>
+      
+      <guid>/publication/clothing-search/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
     <item>
