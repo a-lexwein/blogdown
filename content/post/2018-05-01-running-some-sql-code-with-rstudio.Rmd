@@ -112,6 +112,5 @@ babynames::babynames %>%
   head(5)
 ```
 
-
 ### Galaxy Brain over: you definitely should learn some SQL
 Not learning SQL is bad career advice. SQL is a very central language in the world of data. It's also not super confusing if you already know dplyr, which very deliberately has borrowed keywords from SQL. Once you really start to grasp the grammar of dplyr, data manipulation on rectangular data becomes a lot easier regardless of the tools you're using. Of the technology and tools I've learned, SQL was rather easy to pick up, mostly because I had already done a lot of data manipulation using other tools. Learning how to aggregate and join data isn't easy, but once you get the hang of it, learning to do it in a second language really isn't that bad.
